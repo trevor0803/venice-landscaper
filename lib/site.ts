@@ -7,10 +7,10 @@ export const site = {
   description:
     "Luxury landscaping and paver design in Venice, FL. Pavers & patios, artificial turf, drainage, landscape curbing, lawn care and custom design — serving Venice & Sarasota County.",
   url: "https://venice-landscaper.vercel.app",
-  // TODO: confirm real contact details with the client.
-  phone: "(941) 555-0142",
-  phoneHref: "tel:+19415550142",
-  email: "info@venicelandscape.com",
+  // Real contact details from venicelandscaper.com
+  phone: "(941) 500-9492",
+  phoneHref: "tel:+19415009492",
+  email: "hello@venicelandscaper.com",
   address: {
     region: "Venice",
     state: "FL",
