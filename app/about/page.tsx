@@ -40,7 +40,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Us"
         title="Locally owned. Built for the way Florida lives outdoors."
-        intro={`${site.name} designs and installs beautiful outdoor spaces across ${site.address.serviceArea} — from paver patios and driveways to drainage, curbing, turf and full landscape design.`}
+        intro={`For over ${site.yearsExperience} years, ${site.name} has designed and installed beautiful outdoor spaces across ${site.address.serviceArea} — from paver patios and driveways to lighting, water features and full landscape design.`}
       />
 
       <section className="container-x grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-2">
@@ -60,10 +60,12 @@ export default function AboutPage() {
           />
           <div className="mt-5 space-y-4 text-[1.05rem] leading-relaxed text-forest-900/80">
             <p>
-              Welcome to {site.name}. We design and install beautiful outdoor
-              spaces — from gardens and walkways to patios, driveways and pool
-              decks. Whatever your vision, our goal is the same: create an
-              outdoor space you&apos;ll actually want to spend time in.
+              Welcome to {site.name}. With over {site.yearsExperience} years of
+              experience in landscape construction, we design and install
+              beautiful outdoor spaces — from gardens and walkways to patios,
+              driveways and pool decks. Whatever your vision, our goal is the
+              same: create an outdoor space you&apos;ll actually want to spend
+              time in.
             </p>
             <p>
               Everything we build is engineered for the Florida climate. Sandy

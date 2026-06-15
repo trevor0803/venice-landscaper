@@ -55,7 +55,10 @@ export default function ContactPage() {
               </span>
               <div>
                 <p className="text-sm text-forest-900/60">Service area</p>
-                <p className="font-semibold text-forest-900">{site.address.serviceArea}</p>
+                <p className="font-semibold text-forest-900">
+                  {site.serviceAreas.join(", ")} &amp; surrounding Sarasota
+                  County
+                </p>
               </div>
             </li>
             <li className="flex items-start gap-4">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import {
+  Award,
   ShieldCheck,
   Store,
   MapPin,
@@ -14,7 +15,7 @@ import { sortedPosts } from "@/lib/posts";
 import { SectionHeading, Eyebrow, CTABand } from "@/components/ui";
 import Reveal from "@/components/Reveal";
 
-const trustIcons = [ShieldCheck, Store, MapPin];
+const trustIcons = [Award, ShieldCheck, Store, MapPin];
 
 const steps = [
   {
@@ -53,9 +54,10 @@ export default function HomePage() {
               Transform your outdoor space into a Florida oasis
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-cream/80">
-              {site.name} designs and installs beautiful, durable outdoor
-              spaces — from paver patios and driveways to drainage, curbing and
-              full landscape design. {site.tagline}
+              With {site.yearsExperience} years of experience, {site.name}{" "}
+              designs and installs beautiful, durable outdoor spaces — from
+              paver patios and driveways to lighting, water features and full
+              landscape design. {site.tagline}
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
@@ -92,7 +94,7 @@ export default function HomePage() {
 
       {/* TRUST BAR */}
       <section className="border-b border-forest-900/10 bg-cream">
-        <div className="container-x grid gap-6 py-8 sm:grid-cols-3">
+        <div className="container-x grid gap-6 py-8 sm:grid-cols-2 lg:grid-cols-4">
           {trustPoints.map((t, i) => {
             const Icon = trustIcons[i];
             return (

@@ -5,6 +5,11 @@ import {
   Pencil,
   Spline,
   Scissors,
+  Lightbulb,
+  Waves,
+  BrickWall,
+  Droplet,
+  Sparkles,
   type LucideIcon,
 } from "lucide-react";
 
@@ -172,6 +177,130 @@ export const services: Service[] = [
       {
         heading: "One crew for the whole yard",
         body: "Because we also handle pavers, curbing and drainage, we can maintain everything we install — and spot small issues before they become big ones.",
+      },
+    ],
+  },
+  {
+    slug: "landscape-lighting",
+    title: "Landscape Lighting",
+    short: "Path, accent & architectural lighting that comes alive at night.",
+    icon: Lightbulb,
+    image: "/images/hero.jpg",
+    imageAlt: "Landscape and paver lighting at a Venice, FL home at dusk",
+    intro:
+      "The right lighting turns a great yard into a showpiece after dark — and makes your home safer and more secure. We design and install low-voltage systems that highlight your home, plantings and hardscape.",
+    highlights: [
+      "Path, step & deck lighting for safety",
+      "Uplighting for palms, trees & architecture",
+      "Energy-efficient LED, built for the outdoors",
+      "Timers & smart controls available",
+    ],
+    details: [
+      {
+        heading: "Designed for drama and safety",
+        body: "We layer path lights, uplights and accent fixtures so your landscape looks intentional — never harsh — while keeping walkways, steps and entries safely lit.",
+      },
+      {
+        heading: "Built to last in Florida",
+        body: "We use corrosion-resistant, low-voltage LED fixtures and weatherproof connections that hold up to humidity, rain and salt air for years of trouble-free use.",
+      },
+    ],
+  },
+  {
+    slug: "water-features",
+    title: "Water Features",
+    short: "Fountains, bubblers & ponds for a calming outdoor retreat.",
+    icon: Waves,
+    intro:
+      "Add the sight and sound of moving water to your landscape. From sleek fountains and bubbling rocks to natural ponds, we design and build water features that become the centerpiece of your outdoor space.",
+    highlights: [
+      "Fountains, bubblers, ponds & spillways",
+      "Quiet, efficient pumps & proper filtration",
+      "Integrated with lighting & plantings",
+      "Low-maintenance designs",
+    ],
+    details: [
+      {
+        heading: "A focal point you'll hear and feel",
+        body: "The gentle sound of moving water masks road noise and creates an instantly relaxing atmosphere. We size and place each feature so it anchors the space and draws the eye.",
+      },
+      {
+        heading: "Engineered to run clean",
+        body: "We install reliable pumps, filtration and auto-fill where needed so your feature stays clear and healthy with minimal upkeep.",
+      },
+    ],
+  },
+  {
+    slug: "retaining-walls",
+    title: "Retaining Walls",
+    short: "Structural & decorative walls that tame slopes and add definition.",
+    icon: BrickWall,
+    intro:
+      "Retaining walls do double duty — they hold back soil and control erosion while adding structure, seating and visual interest to your landscape. We build walls that are as strong as they are good-looking.",
+    highlights: [
+      "Engineered for proper drainage & load",
+      "Segmental block, stone & paver finishes",
+      "Terracing, raised beds & seat walls",
+      "Erosion & slope control",
+    ],
+    details: [
+      {
+        heading: "Strength you can't see",
+        body: "A wall is only as good as what's behind it. We build on a compacted base with proper backfill and drainage so your wall stays straight and solid for the long haul.",
+      },
+      {
+        heading: "Function that looks designed",
+        body: "Beyond holding back soil, retaining walls create usable terraces, raised planting beds and built-in seating that make sloped or awkward yards far more livable.",
+      },
+    ],
+  },
+  {
+    slug: "irrigation",
+    title: "Irrigation & Sprinklers",
+    short: "Efficient sprinkler installation, repair & smart watering.",
+    icon: Droplet,
+    intro:
+      "A healthy Florida landscape needs the right amount of water in the right places. We install new irrigation systems and repair existing ones — tuned to keep your lawn and plantings thriving without waste.",
+    highlights: [
+      "New sprinkler system installation",
+      "Repairs: heads, valves, lines & timers",
+      "Smart, weather-based controllers",
+      "Zone tuning for lawn, beds & turf",
+    ],
+    details: [
+      {
+        heading: "Water where it's needed",
+        body: "We design zones around how different areas actually drink — turf, beds and shrubs each get the coverage they need, so nothing is over- or under-watered.",
+      },
+      {
+        heading: "Fix the system you have",
+        body: "Dry spots, geysers and stuck valves usually mean a quick fix, not a full replacement. We diagnose and repair existing systems and add smart controllers that adjust to the weather.",
+      },
+    ],
+  },
+  {
+    slug: "paver-sealing",
+    title: "Paver Sealing & Maintenance",
+    short: "Protect and refresh your pavers so they look new for years.",
+    icon: Sparkles,
+    image: "/images/pavers.jpg",
+    imageAlt: "Freshly sealed pavers in Venice, FL",
+    intro:
+      "Sealing protects your investment. It locks in joint sand, resists stains and weeds, and brings back that rich, just-installed color. We clean, re-sand and seal pavers of every kind.",
+    highlights: [
+      "Deep cleaning & weed removal",
+      "Joint re-sanding for stability",
+      "Color-enhancing or natural-finish sealers",
+      "Protects against stains, weeds & fading",
+    ],
+    details: [
+      {
+        heading: "Why sealing matters in Florida",
+        body: "Our sun, rain and humidity fade color and invite weeds and ants into the joints. A quality sealer locks the sand in place, blocks stains and keeps your pavers looking new.",
+      },
+      {
+        heading: "Cleaned and restored first",
+        body: "We don't just seal over dirt. We deep-clean, pull weeds and re-sand the joints so the finished surface is stable, uniform and protected.",
       },
     ],
   },
