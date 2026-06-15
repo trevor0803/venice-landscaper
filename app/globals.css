@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-forest-900 font-sans antialiased;
+}
+
+/* Reusable layout container */
+.container-x {
+  @apply mx-auto w-full max-w-container px-5 sm:px-6 lg:px-8;
+}
+
+/* Long-form article styling */
+.prose-vl h2 {
+  @apply font-display text-2xl sm:text-3xl text-forest-900 mt-10 mb-3;
+}
+.prose-vl p {
+  @apply text-forest-900/80 leading-relaxed mb-5 text-[1.05rem];
+}
+.prose-vl ul {
+  @apply mb-6 space-y-2 pl-1;
+}
+.prose-vl li {
+  @apply relative pl-6 text-forest-900/80 leading-relaxed;
+}
+.prose-vl li::before {
+  content: "";
+  @apply absolute left-0 top-2.5 h-2 w-2 rounded-full bg-gold;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
